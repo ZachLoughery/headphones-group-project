@@ -5,7 +5,7 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
-/* Header and Navbar Styles */
+/* Header, Navbar, and Footer Styles */
 
 header {
   padding: 5px 40px;
@@ -50,7 +50,6 @@ nav li a:hover {
   align-self: auto;
 }
 
-/* Footer */
 footer {
   display: flex;
   border-top: 1px solid #f00;
@@ -64,7 +63,9 @@ footer {
   line-height: 96.2%; /* 19.24px */
 }
 
-/* Hero Section */
+/* ------------------ End of Header, Navbar, and Footer Styles ------------------ */
+
+/* Landing Page */
 
 #main-landing-page {
   background: url("/images/hero-image.webp");
@@ -103,12 +104,17 @@ main {
   line-height: 96.2%; /* 30.784px */
 }
 
+#main-hero a {
+  text-decoration: none;
+  color: #f00;
+  align-self: center;
+}
+
 #main-hero button {
   transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
   cursor: pointer;
   width: 275px;
   height: auto;
-  align-self: center;
   display: flex;
   padding: 20px;
   justify-content: center;
@@ -127,3 +133,5 @@ main {
 #main-hero button:hover {
   transform: scale(1.1);
 }
+
+/* ------------------ End of Landing Page ------------------ */
