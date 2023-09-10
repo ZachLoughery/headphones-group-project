@@ -53,7 +53,7 @@ nav li a:hover {
 /* Footer */
 footer {
   display: flex;
-  border-top: 3px solid #f00;
+  border-top: 1px solid #f00;
   height: 5vh;
   justify-content: center;
   align-items: center;
@@ -66,11 +66,15 @@ footer {
 
 /* Hero Section */
 
-main {
+#main-landing-page {
   background: url("/images/hero-image.webp");
   background-size: cover;
   height: 85vh;
   width: auto;
+}
+
+main {
+  height: 85vh;
 }
 
 #main-hero {
