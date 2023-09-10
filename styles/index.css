@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+body {
+    background-color: black;
+    font-family:  'Ubuntu', sans-serif;
+}
+
+/* Header and Navbar Styles */
+header {
+    padding: 5px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid red;
+}
+
+nav ul {
+    margin-right: 170px;
+    list-style: none;
+    font-size: 35.681px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96.2%;
+    display: flex;
+    gap: 32px;
+}
+
+nav li {
+    align-self: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    color: red;
+}
+
+.li--divider {
+    border-right: 1px solid red;
+    height: 50px;
+    align-self: auto;
+}
