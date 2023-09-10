@@ -1,45 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
 
 body {
-    background-color: black;
-    font-family:  'Ubuntu', sans-serif;
+  background-color: black;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* Header and Navbar Styles */
+
 header {
-    padding: 5px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid red;
+  padding: 5px 40px;
+  height: 8.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid red;
 }
 
 nav ul {
-    margin-right: 170px;
-    list-style: none;
-    font-size: 35.681px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 96.2%;
-    display: flex;
-    gap: 32px;
+  margin-right: 170px;
+  list-style: none;
+  font-size: 35.681px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96.2%;
+  display: flex;
+  gap: 32px;
 }
 
 nav li {
-    align-self: center;
+  align-self: center;
 }
 
 nav li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 nav li a:hover {
-    color: red;
+  color: red;
 }
 
 .li--divider {
-    border-right: 1px solid red;
-    height: 50px;
-    align-self: auto;
+  border-right: 1px solid red;
+  height: 50px;
+  align-self: auto;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  border-top: 3px solid #f00;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 96.2%; /* 19.24px */
+}
+
+/* Hero Section */
+
+main {
+  background: url("/images/hero-image.webp");
+  background-size: cover;
+  height: 85vh;
+  width: auto;
+}
+
+#main-hero {
+  margin-left: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 450px;
+  width: 820px;
+}
+
+#main-hero h2 {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96.2%; /* 61.568px */
+  margin: 75px 0 0 0;
+}
+
+#main-hero p {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 96.2%; /* 30.784px */
+}
+
+#main-hero button {
+  align-self: center;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  border-style: none;
+  background: #f00;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.2%; /* 30.784px */
 }
