@@ -68,12 +68,19 @@ footer {
 
 /* Landing Page */
 
-#main-landing-page {
-  background: url("/images/hero-image.webp");
+#about {
+  background-image: url(../images/earplugs.jpg);
   background-size: cover;
   height: 85vh;
   width: auto;
 }
+
+/* {
+  background-image: img url(../images/hero-image.webp)
+  background-size: cover;
+  height: 85vh;
+  width: auto;
+} */
 
 main {
   height: 85vh;
