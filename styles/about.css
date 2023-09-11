@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
+/* Body */
+body {
+  background-color: black;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Header, Navbar, and Footer Styles */
+
+header {
+  padding: 5px 40px;
+  height: 8.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid red;
+}
+
+header img {
+  width: 300px;
+}
+
+nav ul {
+  margin-right: 170px;
+  list-style: none;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96.2%;
+  display: flex;
+  gap: 32px;
+}
+
+nav li {
+  align-self: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  color: red;
+}
+
+.li--divider {
+  border-right: 1px solid red;
+  height: 50px;
+  align-self: auto;
+}
+
+footer {
+  display: flex;
+  border-top: 1px solid #f00;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 96.2%;
+}
+
+/* ------------------ End of Header, Navbar, and Footer Styles ------------------ */
+
+/* Landing Page */
+
+#main-landing-page {
+  background: url("/images/hero-image.webp");
+  background-size: cover;
+  height: 85vh;
+  width: auto;
+}
+
+main {
+  height: 85vh;
+}
+
+#main-hero {
+  margin-left: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 450px;
+  width: 750px;
+  gap: 10px;
+}
+
+#main-hero h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96.2%;
+  margin: 75px 0 0 0;
+}
+
+#main-hero p {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 96.2%;
+}
+
+#main-hero a {
+  text-decoration: none;
+  color: #f00;
+  align-self: center;
+}
+
+#main-hero button {
+  transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+  cursor: pointer;
+  width: 275px;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  border-style: none;
+  background: #f00;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.2%;
+}
+
+#main-hero button:hover {
+  transform: scale(1.1);
+}
+
+/* ------------------ End of Landing Page ------------------ */
+
+/* About Page */
+/* ------------------ End of About Page ------------------ */
+
+/* Gallery Page */
+/* ------------------ End of Gallery Page ------------------ */
+
+/* Contact Page */
+/* ------------------ End of Contact Page ------------------ */
