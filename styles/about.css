@@ -68,19 +68,12 @@ footer {
 
 /* Landing Page */
 
-#about {
-  background-image: url(../images/earplugs.jpg);
+#main-landing-page {
+  background: url("/images/hero-image.webp");
   background-size: cover;
   height: 85vh;
   width: auto;
 }
-
-/* {
-  background-image: img url(../images/hero-image.webp)
-  background-size: cover;
-  height: 85vh;
-  width: auto;
-} */
 
 main {
   height: 85vh;
@@ -93,7 +86,7 @@ main {
   justify-content: flex-start;
   align-items: flex-start;
   height: 450px;
-  width: 750px;
+  width: 600px;
   gap: 10px;
 }
 
@@ -101,7 +94,7 @@ main {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 96.2%;
+  line-height: 10%;
   margin: 75px 0 0 0;
 }
 
@@ -109,7 +102,7 @@ main {
   font-size: 25px;
   font-style: normal;
   font-weight: 300;
-  line-height: 96.2%;
+  line-height: 140%;
 }
 
 #main-hero a {
@@ -145,6 +138,29 @@ main {
 /* ------------------ End of Landing Page ------------------ */
 
 /* About Page */
+
+#about {
+  background-image: url(../images/about/earplugs.jpg);
+  background-size: cover;
+  height: 85vh;
+  width: auto;
+}
+
+.portrait {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  height: 30vh;
+  width: auto;
+}
+
+.name {
+  font-size: 14px;
+  color: gray;
+  font-weight: 100;
+}
+
 /* ------------------ End of About Page ------------------ */
 
 /* Gallery Page */
