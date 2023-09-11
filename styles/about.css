@@ -146,20 +146,32 @@ main {
   width: auto;
 }
 
-.portrait {
+.photocontainer {
+  width: 600px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
   gap: 20px;
-  height: 30vh;
-  width: auto;
+}
+
+.portrait {
+  height: 200px;
 }
 
 .name {
-  font-size: 14px;
-  color: gray;
-  font-weight: 100;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
+
+.title {
+  font-size: 15px;
+  font-weight: 100;
+  max-width: 120px;
+}
+}
+
 
 /* ------------------ End of About Page ------------------ */
 
