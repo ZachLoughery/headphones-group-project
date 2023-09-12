@@ -138,6 +138,40 @@ main {
 /* ------------------ End of Landing Page ------------------ */
 
 /* About Page */
+
+#about {
+  background-image: url(../images/about/earplugs.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  width: auto;
+}
+
+.photocontainer {
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.portrait {
+  height: 200px;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 100;
+  max-width: 120px;
+}
+
 /* ------------------ End of About Page ------------------ */
 
 /* Gallery Page */
