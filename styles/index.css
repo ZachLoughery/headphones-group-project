@@ -189,13 +189,13 @@ footer {
   width: 30%;
 }
 .headphones_photos img {
-  width: 100%;
+  width: 455px;
   margin: 10px;
+  height: 683px;
 }
 .photo_price,
 .photo_text {
   color: white;
-  font-family: "Times New Roman", Times, serif;
   margin-left: 10px;
 }
 .photo_price {
