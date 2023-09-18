@@ -75,9 +75,7 @@ footer {
   width: auto;
 }
 
-main {
-  height: 85vh;
-}
+
 
 #main-hero {
   margin-left: 110px;
@@ -175,6 +173,33 @@ main {
 /* ------------------ End of About Page ------------------ */
 
 /* Gallery Page */
+
+.gallery_photos{
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  }
+.headphones_photos{
+  width: 30%;
+}
+.headphones_photos img{
+  width: 100%;
+  margin: 10px;
+}
+.photo_price, .photo_text{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10px;
+}
+.photo_price{
+  font-weight: bold;
+  margin-top: -10px;
+}
+.main_1{
+  margin-top: -70px;
+}
 /* ------------------ End of Gallery Page ------------------ */
 
 /* Contact Page */
