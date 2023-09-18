@@ -6,6 +6,12 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+/* Helps prevent the scrollbar popping up on the Gallery page from messing with the layout */
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
 /* Header, Navbar, and Footer Styles */
 
 header {
@@ -74,8 +80,6 @@ footer {
   height: 85vh;
   width: auto;
 }
-
-
 
 #main-hero {
   margin-left: 110px;
@@ -174,30 +178,31 @@ footer {
 
 /* Gallery Page */
 
-.gallery_photos{
+.gallery_photos {
   display: flex;
   max-width: 100%;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 100px;
-  }
-.headphones_photos{
+}
+.headphones_photos {
   width: 30%;
 }
-.headphones_photos img{
+.headphones_photos img {
   width: 100%;
   margin: 10px;
 }
-.photo_price, .photo_text{
+.photo_price,
+.photo_text {
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin-left: 10px;
 }
-.photo_price{
+.photo_price {
   font-weight: bold;
   margin-top: -10px;
 }
-.main_1{
+.main_1 {
   margin-top: -70px;
 }
 /* ------------------ End of Gallery Page ------------------ */
