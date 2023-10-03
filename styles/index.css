@@ -170,12 +170,14 @@ footer {
   font-weight: 500;
   margin-top: 10px;
   margin-bottom: 5px;
+  color: white;
 }
 
 .title {
   font-size: 15px;
   font-weight: 100;
   max-width: 120px;
+  color: #14f25d;
 }
 
 /* ------------------ End of About Page ------------------ */
