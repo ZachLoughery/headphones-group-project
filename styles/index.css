@@ -20,7 +20,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #14f25d;
 }
 
 header img {
@@ -48,18 +48,18 @@ nav li a {
 }
 
 nav li a:hover {
-  color: red;
+  color: #14f25d;
 }
 
 .li--divider {
-  border-right: 1px solid red;
+  border-right: 1px solid #14f25d;
   height: 50px;
   align-self: auto;
 }
 
 footer {
   display: flex;
-  border-top: 1px solid #f00;
+  border-top: 1px solid #14f25d;
   height: 5vh;
   justify-content: center;
   align-items: center;
@@ -77,6 +77,7 @@ footer {
 #main-landing-page {
   background: url("../images/hero-image.webp");
   background-size: cover;
+  background-position: center;
   height: 85vh;
   width: auto;
 }
@@ -98,6 +99,7 @@ footer {
   font-weight: 700;
   line-height: 96.2%;
   margin: 75px 0 0 0;
+  color: white;
 }
 
 #main-hero p {
@@ -105,16 +107,17 @@ footer {
   font-style: normal;
   font-weight: 300;
   line-height: 140%;
+  color: white;
 }
 
 #main-hero a {
   text-decoration: none;
-  color: #f00;
+  color: #14f25d;
   align-self: center;
 }
 
 #main-hero button {
-  transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
   width: 275px;
   height: auto;
@@ -124,12 +127,12 @@ footer {
   align-items: center;
   border-radius: 9px;
   border-style: none;
-  background: #f00;
+  background: #14f25d;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  color: white;
+  color: #000000;
   font-size: 25px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 96.2%;
 }
 
@@ -142,9 +145,10 @@ footer {
 /* About Page */
 
 #about {
-  background-image: url(../images/about/earplugs.jpg);
-  background-size: cover;
+  background-image: url(../images/about/bg.webp);
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   height: 85vh;
   width: auto;
 }
@@ -166,12 +170,14 @@ footer {
   font-weight: 500;
   margin-top: 10px;
   margin-bottom: 5px;
+  color: white;
 }
 
 .title {
   font-size: 15px;
   font-weight: 100;
   max-width: 120px;
+  color: #14f25d;
 }
 
 /* ------------------ End of About Page ------------------ */
