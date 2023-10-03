@@ -20,7 +20,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #14f25d;
 }
 
 header img {
@@ -48,18 +48,18 @@ nav li a {
 }
 
 nav li a:hover {
-  color: red;
+  color: #14f25d;
 }
 
 .li--divider {
-  border-right: 1px solid red;
+  border-right: 1px solid #14f25d;
   height: 50px;
   align-self: auto;
 }
 
 footer {
   display: flex;
-  border-top: 1px solid #f00;
+  border-top: 1px solid #14f25d;
   height: 5vh;
   justify-content: center;
   align-items: center;
@@ -114,7 +114,7 @@ footer {
 }
 
 #main-hero button {
-  transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
   width: 275px;
   height: auto;
@@ -124,7 +124,7 @@ footer {
   align-items: center;
   border-radius: 9px;
   border-style: none;
-  background: #f00;
+  background: #14f25d;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   color: white;
   font-size: 25px;
