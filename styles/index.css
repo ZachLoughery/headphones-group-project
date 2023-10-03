@@ -145,9 +145,10 @@ footer {
 /* About Page */
 
 #about {
-  background-image: url(../images/about/earplugs.jpg);
-  background-size: cover;
+  background-image: url(../images/about/bg.webp);
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   height: 85vh;
   width: auto;
 }
