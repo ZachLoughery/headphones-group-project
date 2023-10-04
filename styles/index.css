@@ -215,15 +215,21 @@ footer {
 
 /* Contact Page */
 
+#contact {
+  height: 85vh;
+  width: auto;
+  margin-left: 110px;
+  margin-top: 75px;
+  color: white;
+}
+
 main h1 {
-  text-align: center;
   color: #ffffff;
   font-size: 36px;
 }
 
 form {
   max-width: 500px;
-  margin: auto;
 }
 
 label, input, textarea {
