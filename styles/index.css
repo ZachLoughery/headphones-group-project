@@ -184,12 +184,19 @@ footer {
 
 /* Gallery Page */
 
+#gallery h1 {
+  margin-left: 110px;
+  margin-top: 75px;
+  color: white;
+}
+
 .gallery_photos {
   display: flex;
   max-width: 100%;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .headphones_photos {
   width: 30%;
@@ -207,9 +214,6 @@ footer {
 .photo_price {
   font-weight: bold;
   margin-top: -10px;
-}
-.main_1 {
-  margin-top: -70px;
 }
 /* ------------------ End of Gallery Page ------------------ */
 
@@ -232,12 +236,15 @@ form {
   max-width: 500px;
 }
 
-label, input, textarea {
+label,
+input,
+textarea {
   width: 100%;
   margin-bottom: 15px;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 10%;
   border: 1px solid #ccc;
 }
