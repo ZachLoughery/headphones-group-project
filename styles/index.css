@@ -227,7 +227,7 @@ footer {
 
 #contact {
   height: 85vh;
-  width: 200px;
+  width: auto;
   margin-left: 110px;
   margin-top: 75px;
   color: white;
@@ -301,14 +301,14 @@ select:focus {
 }
 
 button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: 0.2s ease-in-out;
   cursor: pointer;
   width: 275px;
-  height: 60px;
+  height: auto;
+  display: flex;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
   border-radius: 9px;
   border-style: none;
   background: #14f25d;
@@ -324,9 +324,3 @@ button:hover {
   transform: scale(1.1);
 }
 /* ------------------ End of Contact Page ------------------ */
-
-
-@media screen and (max-width: 1100px) {
-  
-  
-}
