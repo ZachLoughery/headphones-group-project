@@ -214,4 +214,38 @@ footer {
 /* ------------------ End of Gallery Page ------------------ */
 
 /* Contact Page */
+
+main h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+label, input, textarea {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  padding: 10%;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #14f25d;
+  color: white;
+  cursor: pointer;
+  padding: 5px 5px;
+  font-size: 14px;
+  width: 80px;
+}
+
+button:hover {
+  background-color: #0d6129;
+}
 /* ------------------ End of Contact Page ------------------ */
