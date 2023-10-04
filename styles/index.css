@@ -194,7 +194,8 @@ footer {
   display: flex;
   max-width: 100%;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  margin-left: 110px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -203,13 +204,14 @@ footer {
 }
 .headphones_photos img {
   width: 455px;
-  margin: 10px;
   height: 683px;
+  object-fit: cover;
 }
 .photo_price,
 .photo_text {
+  font-weight: bold;
   color: white;
-  margin-left: 10px;
+  margin-bottom: 30px;
 }
 .photo_price {
   font-weight: bold;
