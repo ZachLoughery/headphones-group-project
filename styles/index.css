@@ -191,6 +191,7 @@ footer {
 #gallery h1 {
   margin-left: 110px;
   margin-top: 75px;
+  font-size: 40px;
   color: white;
 }
 
@@ -242,9 +243,9 @@ footer {
   max-width: 600px;
 }
 
-main h1 {
+#contact h1 {
   color: #ffffff;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 form {
